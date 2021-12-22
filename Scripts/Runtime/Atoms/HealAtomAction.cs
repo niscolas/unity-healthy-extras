@@ -18,7 +18,7 @@ namespace niscolas.Healthy.Atoms
                 return;
             }
 
-            healable.Heal(_healAmount.RawValue);
+            healable.HealRaw(_healAmount.RawValue);
             healable.HealRelative(_healAmount.Ratio);
         }
     }

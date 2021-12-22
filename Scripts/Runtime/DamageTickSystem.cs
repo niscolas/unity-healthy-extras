@@ -39,7 +39,7 @@ namespace niscolas.Healthy
         private void InflictSelfDamage(TickSystem.Data tickData)
         {
             _health.TakeRelativeDamage(_tickSelfDamage.Ratio);
-            _health.TakeDamage(_tickSelfDamage.RawValue);
+            _health.TakeRawDamage(_tickSelfDamage.RawValue);
         }
     }
 }

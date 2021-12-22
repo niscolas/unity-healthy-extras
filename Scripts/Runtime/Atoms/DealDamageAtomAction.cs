@@ -26,7 +26,7 @@ namespace niscolas.Healthy.Atoms
             }
 
             damageable.TakeRelativeDamage(_damage.Ratio);
-            damageable.TakeDamage(_damage.RawValue);
+            damageable.TakeRawDamage(_damage.RawValue);
         }
     }
 }
