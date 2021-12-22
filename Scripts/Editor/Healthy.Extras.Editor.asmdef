@@ -1,7 +1,10 @@
 {
-    "name": "Module.Editor",
-    "rootNamespace": "Module.Editor",
-    "references": [],
+    "name": "Healthy.Extras.Editor",
+    "rootNamespace": "niscolas.Healthy.Extras.Editor",
+    "references": [
+        "GUID:e24424f28b8f12d46ab0187ccc42a163",
+        "GUID:3dd867864656bad4bb40772a93b20bae"
+    ],
     "includePlatforms": [
         "Editor"
     ],

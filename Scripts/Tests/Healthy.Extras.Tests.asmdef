@@ -1,9 +1,11 @@
 {
-    "name": "Module.Tests",
-    "rootNamespace": "",
+    "name": "Healthy.Extras.Tests",
+    "rootNamespace": "niscolas.Healthy.Extras.Tests",
     "references": [
-        "UnityEngine.TestRunner",
-        "UnityEditor.TestRunner"
+        "Healthy",
+        "Healthy.Extras",
+        "UnityEditor.TestRunner",
+        "UnityEngine.TestRunner"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
